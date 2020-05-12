@@ -36,6 +36,7 @@
             <label> Who are we sending this to? </label>
                 <input type = "text" name = "recepient">
                 <br>
+                <br>
             <label> Choose a melon: </label>
                 <select name = "melon" >
                     <option> watermleon </option>
@@ -44,14 +45,26 @@
                 </select>
                 <br>
             <label> When should we deliver? </label>
-                <input type = "radio" name = "time" value = "Morning"> 
-                <input type = "radio" name = "time" value = "Evening">
-                <input type = "radio" name = "time" value = "Any time">
-            <br>
+                <label> Morning </label>
+                    <input type = "radio" name = "time" value = "Morning"> 
+                <label> Evening </label>
+                    <input type = "radio" name = "time" value = "Evening">
+                <label> Anytime </label>
+                    <input type = "radio" name = "time" value = "Any time">
+                    <br>
+                    <br>
             <label> Enter your message: </label>
-            <br>
-            <label> Subscribe to our newsletter </label>
-Yes
+                <br>
+                <textarea name = "message"></textarea>
+                <br>
+                <br>
+            <label> Subscribe to our newsletter: </label>
+                <label> Yes </label>
+                <input type = "checkbox" name = "suscribe" value = "yes">
+                <br>
+                <br>
+        
+            <input type = "submit">
 </form>
 </body>
 </html>
